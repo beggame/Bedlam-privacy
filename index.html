@@ -1,154 +1,103 @@
-<!doctype html>
-<html lang="tr">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bedlam: Darmaduman — Gizlilik Politikası / Privacy Policy</title>
+<title>Bedlam - Privacy Policy / Gizlilik Politikası</title>
 <style>
-  :root{ color-scheme: light dark; }
-  body{
-    margin:0; padding:0; background:#0f1220; color:#e8e8f0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height:1.6;
-  }
-  .wrap{ max-width:760px; margin:0 auto; padding:32px 20px 64px; }
-  h1{ font-size:26px; margin:0 0 4px; color:#ffd27a; }
-  h2{ font-size:19px; margin:34px 0 8px; color:#ff9fc9; border-bottom:1px solid #333a55; padding-bottom:6px; }
-  h3{ font-size:15px; margin:18px 0 4px; color:#c9d0ff; }
-  p, li{ font-size:14.5px; color:#d6d8ea; }
-  ul{ padding-left:20px; }
-  .meta{ font-size:13px; color:#9aa0c0; margin-bottom:24px; }
-  .lang-toggle{ display:flex; gap:8px; margin-bottom:28px; }
-  .lang-toggle button{
-    font-family:inherit; font-size:13px; font-weight:600; padding:8px 16px; border-radius:20px;
-    border:1px solid #4a4f76; background:#1a1e33; color:#e8e8f0; cursor:pointer;
-  }
-  .lang-toggle button.active{ background:#ff9fc9; color:#251324; border-color:#ff9fc9; }
-  section[data-lang]{ display:none; }
-  section[data-lang].active{ display:block; }
-  a{ color:#8fd7ff; }
-  code{ background:#1a1e33; padding:1px 6px; border-radius:5px; font-size:13px; }
-  footer{ margin-top:40px; font-size:12px; color:#6b7099; }
-  @media (prefers-color-scheme: light){
-    body{ background:#faf9f6; color:#20202a; }
-    h1{ color:#a5620f; }
-    h2{ color:#a5285e; border-bottom-color:#e3ddd0; }
-    h3{ color:#3a3f7a; }
-    p, li{ color:#33333f; }
-    .meta{ color:#6a6a78; }
-    .lang-toggle button{ background:#fff; border-color:#ddd6c8; color:#20202a; }
-    .lang-toggle button.active{ background:#a5285e; color:#fff; border-color:#a5285e; }
-    code{ background:#eee7d8; }
-    footer{ color:#8a8a96; }
-  }
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.6;color:#222;background:#f6f6f8;margin:0}
+main{max-width:760px;margin:0 auto;padding:20px 16px 60px;background:#fff}
+h1{font-size:1.7rem;margin:.4em 0}
+h2{font-size:1.2rem;margin-top:1.8em;border-bottom:1px solid #ddd;padding-bottom:.2em}
+a{color:#0b57d0}
+.lang{padding:10px 14px;background:#eef2ff;border-radius:8px;margin:12px 0}
+.meta{color:#666;font-size:.9rem}
+hr{border:0;border-top:3px solid #ccc;margin:48px 0}
 </style>
 </head>
 <body>
-<div class="wrap">
+<main>
+<div class="lang"><a href="#en">English</a> | <a href="#tr">Türkçe</a></div>
 
-  <h1>Bedlam: Darmaduman</h1>
-  <div class="meta">Gizlilik Politikası / Privacy Policy — Yürürlük tarihi / Effective date: 16 Eylül 2026 / September 16, 2026</div>
+<section id="en" lang="en">
+<h1>Bedlam - Privacy Policy</h1>
+<p class="meta">Effective date: October 10, 2026</p>
 
-  <div class="lang-toggle">
-    <button id="btnTR" class="active">Türkçe</button>
-    <button id="btnEN">English</button>
-  </div>
+<h2>1. Who we are</h2>
+<p>Bedlam (package com.beg.bedlam) is a 2D cartoon arena shooter game for Android, published by "BEG Game" and developed by Yusuf, an independent developer. Contact: <a href="mailto:yaltunolu99@gmail.com">yaltunolu99@gmail.com</a>.</p>
 
-  <section data-lang="tr" class="active">
-    <p><strong>Bedlam: Darmaduman</strong> ("Oyun") bağımsız bir geliştirici (Yusuf, "Geliştirici", "biz") tarafından geliştirilen çok oyunculu bir mobil oyundur. Bu belge, Oyunu kullandığınızda hangi bilgilerin toplandığını, nasıl kullanıldığını ve haklarınızın neler olduğunu açıklar.</p>
+<h2>2. What data we use and why</h2>
+<p><strong>No accounts.</strong> Bedlam has no accounts, no login, no chat, no player names, no leaderboards and no in-app purchases. We do not ask for your name, email, or phone number.</p>
+<p><strong>Local settings.</strong> Your settings (language, music/sound effects/vibration, bot difficulty, whether you have seen the tutorial, and challenge stars) are stored only on your device. We do not receive them.</p>
+<p><strong>Online play.</strong> Online matches (matchmaking and private rooms) use peer-to-peer WebRTC connections between players' devices. To connect, the other players' devices and the connection servers can see your IP address. This information is used only to establish the connection and is not stored by us. Public STUN servers (Google) help devices find each other. We may add a TURN relay in the future; it would relay game traffic only to make a connection possible and would not store it.</p>
+<p><strong>Matchmaking / signaling server.</strong> A signaling and matchmaking server hosted on Render passes temporary room codes and connection messages between players. We do not keep a user database.</p>
+<p><strong>Advertising (Google AdMob).</strong> Bedlam shows full-screen interstitial ads between matches using Google AdMob. There are no banner ads and no rewarded ads. AdMob may collect device identifiers (such as the Advertising ID), IP address, approximate location derived from the IP address, and app interaction and diagnostic data, for advertising, analytics and fraud prevention. See <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p><strong>Consent (EEA/UK/Switzerland).</strong> If you are in the European Economic Area, the United Kingdom or Switzerland, a Google consent form (UMP) is shown so you can choose how your data is used for ads. When required, an "Ad privacy options" button in Settings lets you change your choice later.</p>
+<p><strong>Opting out of personalized ads.</strong> On Android, open Settings &gt; Google &gt; Ads (the location may vary by device) to reset your Advertising ID or opt out of ads personalization.</p>
+<p>We do not use our own analytics or crash-reporting SDK.</p>
 
-    <h2>1. Topladığımız Bilgiler</h2>
-    <h3>1.1 Hesap oluşturmuyoruz</h3>
-    <p>Oyunu oynamak için ad, e-posta, telefon numarası veya başka bir kişisel bilgi girmeniz istenmez. Şu an için isteğe bağlı bir Google Play Games oturum açma özelliği eklenirse, bu yalnızca sizin onayınızla etkinleşir ve Google'ın kendi gizlilik politikasına tabi olur (bkz. Bölüm 4).</p>
-    <h3>1.2 Eşleştirme ve bağlantı verileri</h3>
-    <p>Oyun, oyuncuları birbirine bağlamak için bir eşleştirme/sinyalleşme sunucusu (Render altyapısında barındırılır) ve doğrudan cihazlar arası bağlantı (WebRTC) kullanır. Bu süreçte:</p>
-    <ul>
-      <li>Bağlantının kurulabilmesi için IP adresiniz teknik olarak (ağ düzeyinde) işlenir; bu bilgi kalıcı olarak saklanmaz, profil oluşturmak için kullanılmaz.</li>
-      <li>Oda kodları geçicidir, bir kimliğe bağlı değildir ve maç bitince/sunucu tarafında kısa süre içinde silinir.</li>
-      <li>Maç içi geçici veriler (karakter seçimi, konum, skor gibi oynanış verileri) yalnızca maçın senkronize edilmesi için oyuncular arasında anlık olarak iletilir, sunucuda kalıcı olarak saklanmaz.</li>
-    </ul>
-    <h3>1.3 Cihazda yerel olarak saklanan veriler</h3>
-    <p>Ayarlarınız (müzik açık/kapalı, seçilen karakter, girilen kodlar vb.) yalnızca kendi cihazınızda (yerel depolama) tutulur; bu veriler bize veya üçüncü taraflara gönderilmez.</p>
-    <h3>1.4 Reklam ve analiz</h3>
-    <p>Oyun şu anda üçüncü taraf reklam veya analiz (izleme) SDK'sı içermemektedir. Bu durum ileride değişirse, bu politika güncellenir ve mağaza sayfasındaki veri güvenliği bölümü buna göre revize edilir.</p>
+<h2>3. Data retention</h2>
+<p>We do not store personal data on our servers. Room codes and connection messages are temporary and only exist while needed. Local settings stay on your device until you clear the app data or uninstall the app. Data collected by AdMob is handled by Google under its own policies.</p>
 
-    <h2>2. Bilgileri Nasıl Kullanıyoruz</h2>
-    <ul>
-      <li>Oyuncuları birbirine bağlamak ve çok oyunculu maçları mümkün kılmak.</li>
-      <li>Oyunun temel işlevlerini (ayarlar, seçimler) cihazınızda hatırlamak.</li>
-      <li>Teknik sorunları teşhis etmek (yalnızca sunucu erişim kayıtları düzeyinde, kısa süreli).</li>
-    </ul>
+<h2>4. Data sharing</h2>
+<p>We do not sell your data. The only third party that receives data for advertising is Google AdMob. Our connection server is hosted by Render, which processes network traffic on our behalf. Other players in an online match can see your IP address as a technical part of the peer-to-peer connection.</p>
 
-    <h2>3. Bilgilerin Paylaşılması</h2>
-    <p>Kişisel bilgilerinizi satmıyor veya pazarlama amacıyla üçüncü taraflarla paylaşmıyoruz. Oyunun çalışması için gerekli alt yapı sağlayıcılarıyla (örneğin sunucu barındırma hizmeti) teknik düzeyde veri işlenebilir; bu sağlayıcılar kendi gizlilik/güvenlik standartlarına tabidir.</p>
+<h2>5. Security</h2>
+<p>WebRTC connections between players are encrypted. Communication with our server uses HTTPS/WSS (encrypted in transit).</p>
 
-    <h2>4. Üçüncü Taraf Hizmetler</h2>
-    <p>Oyun, Google Play Hizmetleri (uygulama dağıtımı, isteğe bağlı Play Games oturum açma eklenirse) aracılığıyla dağıtılır. Bu hizmetlerin veri işleme uygulamaları için Google'ın gizlilik politikasına bakınız: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
+<h2>6. Children</h2>
+<p>Bedlam is intended for users aged 13 and over and is not directed at children under 13. We do not knowingly collect personal data from children under 13. If you believe a child has provided data, contact us at <a href="mailto:yaltunolu99@gmail.com">yaltunolu99@gmail.com</a> and we will delete it.</p>
 
-    <h2>5. Çocukların Gizliliği</h2>
-    <p>Oyun genel bir kitleye yöneliktir ve bilerek 13 yaşın altındaki çocuklardan kişisel bilgi toplamaz. Bir ebeveyn veya vasi, 13 yaş altı bir çocuğun bize bilgi sağladığını düşünüyorsa, Bölüm 7'deki iletişim adresinden bize ulaşabilir; söz konusu bilgiyi sileriz.</p>
+<h2>7. Your rights and deletion</h2>
+<p>Because there are no accounts and we keep no user database, there is no personal profile for us to delete. You can erase local data by clearing the app's storage or uninstalling the game. You can control advertising data in your Android settings and in the consent options described above. For any request about your data, write to <a href="mailto:yaltunolu99@gmail.com">yaltunolu99@gmail.com</a>.</p>
 
-    <h2>6. Veri Güvenliği ve Saklama</h2>
-    <p>Sunucu tarafında kalıcı bir kullanıcı veritabanı bulunmadığından (bkz. Bölüm 1.2), saklanan kişisel veri miktarı asgari düzeydedir. İlerleyen sürümlerde hesap/ilerleme kaydı gibi kalıcı özellikler eklenirse, bu politika güncellenecek ve hangi verilerin ne kadar süreyle saklandığı burada açıkça belirtilecektir.</p>
+<h2>8. Changes to this policy</h2>
+<p>We may update this policy. The effective date at the top shows the latest version. Significant changes will be reflected on this page.</p>
 
-    <h2>7. Haklarınız ve İletişim</h2>
-    <p>Sorularınız, silme talepleriniz veya bu politikayla ilgili başka bir talebiniz için bize şu adresten ulaşabilirsiniz: <a href="mailto:yaltunolu99@gmail.com">yaltunolu99@gmail.com</a></p>
+<h2>9. Contact</h2>
+<p>BEG Game / Yusuf - <a href="mailto:yaltunolu99@gmail.com">yaltunolu99@gmail.com</a></p>
+</section>
 
-    <h2>8. Bu Politikadaki Değişiklikler</h2>
-    <p>Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikler bu sayfada güncellenmiş bir "yürürlük tarihi" ile yayınlanır. Politikayı düzenli olarak gözden geçirmenizi öneririz.</p>
-  </section>
+<hr>
 
-  <section data-lang="en">
-    <p><strong>Bedlam: Darmaduman</strong> (the "Game") is a multiplayer mobile game developed by an independent developer (Yusuf, "Developer", "we"). This document explains what information is collected when you use the Game, how it is used, and what your rights are.</p>
+<section id="tr" lang="tr">
+<h1>Bedlam - Gizlilik Politikası</h1>
+<p class="meta">Yürürlük tarihi: 10 Ekim 2026</p>
 
-    <h2>1. Information We Collect</h2>
-    <h3>1.1 No account required</h3>
-    <p>You are not required to provide a name, email address, phone number, or any other personal information to play the Game. If an optional Google Play Games sign-in feature is added in the future, it will only activate with your consent and will be subject to Google's own privacy policy (see Section 4).</p>
-    <h3>1.2 Matchmaking and connection data</h3>
-    <p>The Game uses a matchmaking/signaling server (hosted on Render) and direct peer-to-peer connections (WebRTC) to connect players. During this process:</p>
-    <ul>
-      <li>Your IP address is technically processed (at the network level) so a connection can be established; it is not permanently stored or used to build a profile.</li>
-      <li>Room codes are temporary, are not tied to any identity, and are deleted server-side shortly after the match ends.</li>
-      <li>In-match transient data (character selection, position, score, and similar gameplay data) is relayed live between players only to synchronize the match, and is not permanently stored on the server.</li>
-    </ul>
-    <h3>1.3 Data stored locally on your device</h3>
-    <p>Your settings (music on/off, selected character, codes entered, etc.) are stored only on your own device (local storage); this data is not sent to us or to third parties.</p>
-    <h3>1.4 Advertising and analytics</h3>
-    <p>The Game does not currently include any third-party advertising or analytics (tracking) SDKs. If this changes in the future, this policy — and the Data Safety section on the store listing — will be updated accordingly.</p>
+<h2>1. Biz kimiz</h2>
+<p>Bedlam (paket adı com.beg.bedlam), "BEG Game" adıyla yayımlanan ve bağımsız geliştirici Yusuf tarafından geliştirilen, Android için 2D çizgi film tarzı bir arena nişancı oyunudur. İletişim: <a href="mailto:yaltunolu99@gmail.com">yaltunolu99@gmail.com</a>.</p>
 
-    <h2>2. How We Use Information</h2>
-    <ul>
-      <li>To connect players to each other and enable multiplayer matches.</li>
-      <li>To remember basic game functionality (settings, selections) on your device.</li>
-      <li>To diagnose technical issues (only at the level of short-lived server access logs).</li>
-    </ul>
+<h2>2. Hangi verileri neden kullanıyoruz</h2>
+<p><strong>Hesap yok.</strong> Bedlam'da hesap, giriş, sohbet, oyuncu adı, skor tablosu ve uygulama içi satın alma yoktur. Sizden ad, e-posta veya telefon numarası istemeyiz.</p>
+<p><strong>Yerel ayarlar.</strong> Ayarlarınız (dil, müzik/ses efekti/titreşim, bot zorluğu, öğreticiyi görüp görmediğiniz ve görev yıldızları) yalnızca cihazınızda saklanır. Bunlar bize ulaşmaz.</p>
+<p><strong>Çevrimiçi oyun.</strong> Çevrimiçi maçlar (eşleşme ve özel odalar) oyuncuların cihazları arasında eşler arası (peer-to-peer) WebRTC bağlantıları kullanır. Bağlanmak için diğer oyuncuların cihazları ve bağlantı sunucuları IP adresinizi görebilir. Bu bilgi yalnızca bağlantıyı kurmak için kullanılır ve bizim tarafımızdan saklanmaz. Herkese açık STUN sunucuları (Google) cihazların birbirini bulmasına yardım eder. İleride bir TURN aktarıcı eklenebilir; bu, yalnızca bağlantıyı mümkün kılmak için oyun trafiğini aktarır ve saklamaz.</p>
+<p><strong>Eşleşme / sinyal sunucusu.</strong> Render üzerinde barındırılan bir sinyal ve eşleşme sunucusu, oyuncular arasında geçici oda kodlarını ve bağlantı mesajlarını iletir. Kullanıcı veritabanı tutmuyoruz.</p>
+<p><strong>Reklamlar (Google AdMob).</strong> Bedlam, maçlar arasında Google AdMob ile tam ekran geçiş reklamları gösterir. Banner reklam ve ödüllü reklam yoktur. AdMob; reklamcılık, analiz ve dolandırıcılığı önleme amaçlarıyla cihaz tanımlayıcıları (Reklam Kimliği gibi), IP adresi, IP adresinden türetilen yaklaşık konum ve uygulama etkileşimi ile tanılama verilerini toplayabilir. Bkz. <a href="https://policies.google.com/technologies/partner-sites">Google, hizmetlerini kullanan sitelerden veya uygulamalardan gelen bilgileri nasıl kullanır</a> ve <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a>.</p>
+<p><strong>Onay (AEA/Birleşik Krallık/İsviçre).</strong> Avrupa Ekonomik Alanı, Birleşik Krallık veya İsviçre'deyseniz, verilerinizin reklamlar için nasıl kullanılacağını seçmeniz için bir Google onay formu (UMP) gösterilir. Gerektiğinde Ayarlar'daki "Reklam gizliliği seçenekleri" düğmesiyle seçiminizi sonradan değiştirebilirsiniz.</p>
+<p><strong>Kişiselleştirilmiş reklamlardan çıkma.</strong> Android'de Ayarlar &gt; Google &gt; Reklamlar bölümünden (konum cihaza göre değişebilir) Reklam Kimliğinizi sıfırlayabilir veya reklam kişiselleştirmeyi kapatabilirsiniz.</p>
+<p>Kendi analiz veya çökme raporlama SDK'mız yoktur.</p>
 
-    <h2>3. Sharing of Information</h2>
-    <p>We do not sell your personal information or share it with third parties for marketing purposes. Infrastructure providers necessary for the Game to function (e.g., our server hosting provider) may process data at a technical level; these providers are subject to their own privacy and security standards.</p>
+<h2>3. Verilerin saklanma süresi</h2>
+<p>Sunucularımızda kişisel veri saklamıyoruz. Oda kodları ve bağlantı mesajları geçicidir ve yalnızca gerektiği sürece bulunur. Yerel ayarlar, uygulama verilerini silene veya oyunu kaldırana kadar cihazınızda kalır. AdMob'un topladığı veriler Google'ın kendi politikalarına göre işlenir.</p>
 
-    <h2>4. Third-Party Services</h2>
-    <p>The Game is distributed through Google Play Services (app distribution, and optional Play Games sign-in if added). For how these services handle data, see Google's privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
+<h2>4. Veri paylaşımı</h2>
+<p>Verilerinizi satmıyoruz. Reklam amacıyla veri alan tek üçüncü taraf Google AdMob'dur. Bağlantı sunucumuz, adımıza ağ trafiğini işleyen Render üzerinde barındırılır. Çevrimiçi bir maçtaki diğer oyuncular, eşler arası bağlantının teknik bir parçası olarak IP adresinizi görebilir.</p>
 
-    <h2>5. Children's Privacy</h2>
-    <p>The Game is intended for a general audience and does not knowingly collect personal information from children under 13. If a parent or guardian believes a child under 13 has provided us with information, please contact us at the address in Section 7 and we will delete it.</p>
+<h2>5. Güvenlik</h2>
+<p>Oyuncular arasındaki WebRTC bağlantıları şifrelidir. Sunucumuzla iletişim HTTPS/WSS kullanır (aktarım sırasında şifreli).</p>
 
-    <h2>6. Data Security and Retention</h2>
-    <p>Because there is no persistent user database on the server side (see Section 1.2), the amount of personal data stored is minimal. If future versions add persistent features such as accounts or saved progress, this policy will be updated to clearly state what data is retained and for how long.</p>
+<h2>6. Çocuklar</h2>
+<p>Bedlam 13 yaş ve üzeri kullanıcılar içindir ve 13 yaş altındaki çocuklara yönelik değildir. 13 yaş altındaki çocuklardan bilerek kişisel veri toplamayız. Bir çocuğun veri sağladığını düşünüyorsanız <a href="mailto:yaltunolu99@gmail.com">yaltunolu99@gmail.com</a> adresine yazın, silelim.</p>
 
-    <h2>7. Your Rights and Contact</h2>
-    <p>For questions, deletion requests, or any other inquiry regarding this policy, you can reach us at: <a href="mailto:yaltunolu99@gmail.com">yaltunolu99@gmail.com</a></p>
+<h2>7. Haklarınız ve silme</h2>
+<p>Hesap ve kullanıcı veritabanı olmadığı için silebileceğimiz bir kişisel profil yoktur. Yerel verileri uygulamanın depolama alanını temizleyerek veya oyunu kaldırarak silebilirsiniz. Reklam verilerini Android ayarlarından ve yukarıda anlatılan onay seçeneklerinden yönetebilirsiniz. Verilerinizle ilgili her talep için <a href="mailto:yaltunolu99@gmail.com">yaltunolu99@gmail.com</a> adresine yazabilirsiniz.</p>
 
-    <h2>8. Changes to This Policy</h2>
-    <p>We may update this privacy policy from time to time. Material changes will be published on this page with an updated "effective date." We encourage you to review this policy periodically.</p>
-  </section>
+<h2>8. Politika değişiklikleri</h2>
+<p>Bu politikayı güncelleyebiliriz. En üstteki yürürlük tarihi son sürümü gösterir. Önemli değişiklikler bu sayfaya yansıtılır.</p>
 
-  <footer>Bedlam: Darmaduman — Gizlilik Politikası / Privacy Policy</footer>
-</div>
-<script>
-  var btnTR = document.getElementById('btnTR'), btnEN = document.getElementById('btnEN');
-  var secTR = document.querySelector('section[data-lang="tr"]'), secEN = document.querySelector('section[data-lang="en"]');
-  btnTR.onclick = function(){ secTR.classList.add('active'); secEN.classList.remove('active'); btnTR.classList.add('active'); btnEN.classList.remove('active'); };
-  btnEN.onclick = function(){ secEN.classList.add('active'); secTR.classList.remove('active'); btnEN.classList.add('active'); btnTR.classList.remove('active'); };
-</script>
+<h2>9. İletişim</h2>
+<p>BEG Game / Yusuf - <a href="mailto:yaltunolu99@gmail.com">yaltunolu99@gmail.com</a></p>
+</section>
+</main>
 </body>
 </html>
